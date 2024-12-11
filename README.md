@@ -1,54 +1,51 @@
-<<<<<<< HEAD
-# Admin-Dashboard
-=======
-# React + TypeScript + Vite + TailwindCSS
+# Admin Dashboard Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive admin dashboard built with **React**, **Vite**, **Tailwind CSS**, and **TypeScript**.
 
-Currently, two official plugins are available:
+## Requirements
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Before running the project locally, make sure you have the following software installed on your machine:
 
-## Expanding the ESLint configuration
+- **Node.js** (version 14 or higher) – [Download Node.js](https://nodejs.org/)
+- **npm** (comes with Node.js)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installation
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone this repository to your local machine:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+   ```bash
+   git clone <repository-url>
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+2. Navigate into the project directory:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+   ```bash
+   cd <project-directory>
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
->>>>>>> 1e5a05e (initialcommit)
+3. Install the dependencies using npm:
+
+   ```bash
+   npm install
+
+## Accessing the Project Externally
+
+To access the project remotely, you can use the following public URL:
+https://e594-2001-e68-5409-e4d8-938-b60e-58ef-fed9.ngrok-free.app
+
+## Technologies Used
+1. Vite – A fast build tool and development server.
+2. React – A JavaScript library for building user interfaces.
+3. Tailwind CSS – A utility-first CSS framework for rapid UI development.
+4. TypeScript – A typed superset of JavaScript that adds type safety and other features.
+
+## Folder Structure
+
+/src
+  /assets       # Static assets like images and fonts
+  /components   # React components
+  /pages        # Pages for different routes
+  /styles       # Tailwind CSS configuration and custom styles
+  /utils        # Utility functions
+/public
+  index.html    # Main HTML file
+package.json    # Project configuration and dependencies
+

@@ -26,13 +26,6 @@ Before running the project locally, make sure you have the following software in
    ```bash
    npm install
 
-## Accessing the Project Externally
-
-To access the project remotely, you can use the following public URL:
-https://8662-2001-e68-5409-e4d8-938-b60e-58ef-fed9.ngrok-free.app/
-OR
-http://localhost:5176
-
 ## Technologies Used
 1. Vite – A fast build tool and development server.
 2. React – A JavaScript library for building user interfaces.
